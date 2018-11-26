@@ -1,0 +1,242 @@
+<html>
+<header>
+  <nav>
+    <span class="movetext"><a href ="#">Wesco Technologies Inc.</a></span>
+    <a href="#Home" class="active">Home</a>
+    <a href="#About-Us">About Us</a>
+    <a href="#Services">Services</a>
+    <a href="#Contact-us">Contact Us</a>
+  </nav>
+</header>
+
+<div class="portion">
+  <h2>Home</h2>
+</div>
+
+<div id="Home" class="info">
+  <h3>Wesco Tec is ______</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
+</div>
+
+<div class="portion two">
+  <h2>About Us</h2>
+</div>
+
+<div id="About-Us" class="info">
+  <h3>Heading for About Us</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur voluptate laboriosam impedit praesentium sed, nihil, dignissimos et minima recusandae quaerat enim consectetur. Molestiae assumenda distinctio, rem nostrum dolores repellendus.</p>
+  <!--
+  <div class="button">
+    <a href="#">Example Button</a>
+  </div>
+  -->
+</div>
+
+<div class="portion info">
+  <h2>Services</h2>
+</div>
+
+<div id="Services" class="info">
+  <h3>Heading for Services</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus in vitae saepe harum soluta reiciendis eaque repellat distinctio quos voluptate nemo error ratione numquam, nisi quibusdam veritatis repudiandae ea possimus rerum pariatur dolores? Optio inventore iusto, voluptatibus numquam aperiam, harum maxime beatae minima aliquam quas sapiente totam cumque unde..</p>
+  <!--
+  <div class="button">
+    <a href="#">Example Button</a>
+  -->
+  </div>
+</div>
+
+<div class="portion two">
+  <h2>Contact Us</h2>
+</div>
+
+<div id="Contact-us" class="info">
+  <h3>Heading for Contact Us</h3>
+    <h5 class="text-center">You can reach us at: </h5>
+    <li>36-06 43rd Avenue
+Long Island City, NY 11101</li>
+    <li><a href="tel:+17187861110">(718) 786-1110</a></li>
+    <li><a href="tel:+17187861114">(718) 786-1114</a></li>
+    <li><a href="mailto:bill@wescotec.com">bill@wescotec.com</a></li>
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Wesco%20Technologies%20Inc&key=AIzaSyA0AW-7F0BIjiKP_5zOLckEGbvYHMXUNTo" allowfullscreen></iframe>
+  <!--
+  <div class="button">
+    <a href="#">Example Button</a>
+  -->
+  </div>
+</div>
+
+<footer class="info">
+  <div id="toTop"><a href="#"><img src="https://pre00.deviantart.net/d92d/th/pre/i/2016/228/e/f/team_skull_logo_by_lostcause26-dadq73f.png"></a></div>
+  <p>&copy; Wesco Technologies Inc.</p>
+  
+</footer>
+</html>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+header nav {
+  text-align: right;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em .5em;
+  -webkit-transition: all .3s ease-in;
+}
+.small {
+  padding: .5em 1em;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background: rgba(255,255,255,0.3);
+}
+
+.portion {
+  
+  background: #3F90B3;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.portion.two {
+  background-image: url('https://www.worldatlas.com/r/w728-h425-c728x425/upload/a7/b8/01/shutterstock-564527287.jpg');
+}
+.portion h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+  padding: 2em 0;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.6);
+}
+
+.info {
+  background: #FFFAF0;
+  color: #777;
+  padding: 3em 20%;
+}
+
+.button {
+  text-align: center;
+}
+.button a {
+  display: inline-block;
+  border: 2px solid #777;
+  padding: .75em 1.5em;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: .15em;
+  word-spacing: .25em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.button a:hover {
+  color: #FFFAF0;
+  background: #777;
+}
+footer.info {
+  color: #FFFAF0;
+  background: #777;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#toTop img {
+  width: 50px;
+}
+#toTop img:hover {
+  cursor: pointer;
+}
+nav img {
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
+}
+
+.move {
+  top: -60px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.movetext {
+  margin-top: :-20px;
+}
+</style>
+<!-- bchris was here -->\
+<!--
+──────────▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+────────█═════════════════█
+──────█═════════════════════█
+─────█════════▄▄▄▄▄▄▄════════█
+────█════════█████████════════█
+────█═══════██▀─────▀██═══════█
+───███████████──█▀█──███████████
+───███████████──▀▀▀──███████████
+────█═══════▀█▄─────▄█▀═══════█
+────█═════════▀█████▀═════════█
+────█═════════════════════════█
+────█══════▀▄▄▄▄▄▄▄▄▄▀════════█
+───▐▓▓▌═════════════════════▐▓▓▌
+───▐▐▓▓▌▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐▓▓▌▌
+───█══▐▓▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▓▌══█
+──█══▌═▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌═▐══█
+──█══█═▐▓▓▓▓▓▓▄▄▄▄▄▄▄▓▓▓▓▓▓▌═█══█
+──█══█═▐▓▓▓▓▓▓▐██▀██▌▓▓▓▓▓▓▌═█══█
+──█══█═▐▓▓▓▓▓▓▓▀▀▀▀▀▓▓▓▓▓▓▓▌═█══█
+──█══█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█══█
+─▄█══█▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌█══█▄
+─█████▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌─█████
+─██████▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌─██████
+──▀█▀█──▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌───█▀█▀
+─────────▐▓▓▓▓▓▓▌▐▓▓▓▓▓▓▌
+──────────▐▓▓▓▓▌──▐▓▓▓▓▌
+─────────▄████▀────▀████▄
+─────────▀▀▀▀────────▀▀▀▀
+Tim loves minions
+
+           /\
+          /  \
+         /    \
+        /      \
+       /        \
+      /__________\
+     /\__________/\
+    /  \        /  \
+   /    \      /    \
+  /      \    /      \
+ /        \  /        \
+/__________\/__________\
+\__________/\__________/
+- Jason
+-->
